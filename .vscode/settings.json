@@ -1,0 +1,26 @@
+{
+    "files.eol": "\n",
+    "editor.tabSize": 4,
+    // "editor.formatOnSave": true,
+    "eslint.validate": ["javascript", "javascriptreact", "vue", "typescript"],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+
+    // 禁用vetur的JS格式化，交给eslint处理
+    "vetur.format.defaultFormatter.js": "none",
+
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
