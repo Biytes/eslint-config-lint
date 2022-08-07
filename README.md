@@ -11,7 +11,7 @@
 #### 安装
 
 ```javascript
-    cnpm i --save-dev @xiaoe/eslint-plugin-lint
+    cnpm i --save-dev @nostalgiaswag/eslint-plugin-lint
 
     // 使用后，记得将原有项目内的package.json里的包删除
     // 引入了该配置后，所有lint相关的包，统一版本在项目包里管理
@@ -35,14 +35,14 @@
 // 详情阅读configs文件
 
 module.exports = {
-    extends: ['plugin:@xiaoe/lint/xxx'], // xxx的配置
-    extends: ['plugin:@xiaoe/lint/vue'] // vue2的配置
+    extends: ['plugin:@nostalgiaswag/lint/xxx'], // xxx的配置
+    extends: ['plugin:@nostalgiaswag/lint/vue'] // vue2的配置
 };
 
 // 如果需要在旧项目引入，宽松一点的包，引入base-loose
 module.exports = {
-    extends: ['plugin:@xiaoe/lint/vue'], // vue2的配置
-    extends: ['plugin:@xiaoe/lint/base-loose'] // 放松一点的配置
+    extends: ['plugin:@nostalgiaswag/lint/vue'], // vue2的配置
+    extends: ['plugin:@nostalgiaswag/lint/base-loose'] // 放松一点的配置
 };
 ```
 
